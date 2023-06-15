@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Sono&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: #5a50eb;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+nav h2{
+    margin-top: 10px;
+    margin-left: 57px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-top: 16px;
+    margin-left: 63px;
+    font-size: 18px;
+}
+.btn1{
+    margin-left: 65px;
+    background-color: #5a50eb;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+.btn1:hover{
+    cursor: pointer;
+}
